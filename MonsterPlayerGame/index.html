@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container1"> 
+
+        <div class="containerPlayer"> 
+        <div class="player">
+            <h1>PLAYER</h1>
+            <p id="healthPlayer" class="health">100</p>
+        </div>
+        </div>
+    
+        <div class="containerMonster"> 
+        <div class="monster">
+            <h1>MONSTER</h1>
+            <p id="healthMonster" class="health">100</p>
+        </div>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <div class="relativeCon">
+            <button class="btn gameStarter" id="gameStarter"  onclick="pressStart()">Start a new game</button>
+
+            <ul class="lista" id="lista">
+                <li><button class="btn damage" id="damage" onclick="getDamage()">Damage</button></li>
+                <li><button class="btn doubleDamage" id="doubleDamage" onclick="getDoubleDamage()">Extreme</button></li>
+                <li><button class="btn heal" id="heal" onclick="getHeal()">Heal</button></li> 
+                <li><button class="btn retire" id="retire" onclick="getRetire()">Retire</button></li>
+            </ul>
+ 
+        </div>
+    </div>
+
+
+    <div class="container2">
+        <ul id="lista2">
+            
+        </ul>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

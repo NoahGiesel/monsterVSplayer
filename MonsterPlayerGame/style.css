@@ -1,0 +1,162 @@
+* { 
+    margin: 0 ; 
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(250, 187, 135);
+}
+.container1 { 
+    width: 80%;
+    height: 20vh;
+    border: 2px solid rgba(51, 51, 51, 0.493);
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}   
+
+.containerPlayer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.containerMonster {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.player {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+ }
+
+.monster { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+ }
+.container { 
+    width: 80%;
+    height: 10vh;
+    border: 2px solid rgba(51, 51, 51, 0.493);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.relativeCon { 
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.btn {
+    padding: 13px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #444;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+ }
+
+
+
+.gameStarter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(3, 196, 3, 1);
+}
+
+
+.gameStarter:hover {
+    background-color: rgb(1, 255, 1);
+ }
+ 
+ .lista {
+     list-style: none;
+     display: flex;
+     width: 80%;
+     justify-content: space-around;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     visibility: hidden;
+}
+
+ .lista li { 
+     margin: 0px 50px;
+     padding: 5px;
+ }
+ 
+
+ .damage {
+     background-color: lightskyblue;
+ }
+
+ .damage:hover {
+     background-color: lightseagreen;
+ }
+
+ .doubleDamage {
+     background-color: rgb(255, 147, 147);
+ }
+
+ .doubleDamage:hover { 
+     background-color:rgb(255, 104, 104);
+ }
+
+ .heal {
+     background-color: greenyellow;
+ }
+
+ .heal:hover {
+     background-color: green;
+ }
+
+ .retire:hover { 
+     background-color: black;
+     color: #fff;
+ }
+
+ .retire {
+     background-color: #fff;
+     color: black;
+ }
+
+
+ .container2 {
+    width: 80%;
+    height: auto;
+    border: 2px solid rgba(51, 51, 51, 0.493);
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+ }
+
+ .container2 li {
+     display: block;
+ }
